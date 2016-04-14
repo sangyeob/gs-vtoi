@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<style>
+			div.imgbox { width: 640px; height: 360px; background: url(./a.png) 0 0 no-repeat transparent; transform: rotate(270deg); }
+			input { margin-top: 300px; }
+		</style>
+		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('input').mousemove(function() {
+					$('div.imgbox').css('background-position', '-' + $(this).val() * 640 + 'px 0');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="imgbox">
+		</div>
+		<div style="text-align: center;">
+			<input type="range" min="0" max="58"/>
+		</div>
+	</body>
+</html>
