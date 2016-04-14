@@ -5,6 +5,7 @@ PyYAML==3.11
 Werkzeug==0.11.5
 awsebcli==3.7.5
 blessed==1.9.5
+boto==2.39.0
 botocore==1.4.11
 cement==2.8.2
 colorama==0.3.7
