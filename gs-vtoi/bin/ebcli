@@ -1,0 +1,9 @@
+#!/Users/Sang/OneDrive/Developments/gs-vtoi/gs-vtoi/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'ebcli==4.0.14','console_scripts','ebcli'
+__requires__ = 'ebcli==4.0.14'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('ebcli==4.0.14', 'console_scripts', 'ebcli')()
+)

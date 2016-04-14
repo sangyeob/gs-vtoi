@@ -1,0 +1,9 @@
+#!/Users/Sang/OneDrive/Developments/gs-vtoi/gs-vtoi/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'keyring==9.0','console_scripts','keyring'
+__requires__ = 'keyring==9.0'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('keyring==9.0', 'console_scripts', 'keyring')()
+)

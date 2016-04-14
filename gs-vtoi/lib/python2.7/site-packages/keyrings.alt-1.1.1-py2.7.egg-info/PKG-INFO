@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: keyrings.alt
+Version: 1.1.1
+Summary: Alternate keyring implementations
+Home-page: https://github.com/jaraco/keyrings.alt
+Author: Jason R. Coombs
+Author-email: jaraco@jaraco.com
+License: UNKNOWN
+Description: keyrings.alt
+        ============
+        
+        Alternate keyring backend implementations for use with the
+        `keyring package <https://pypi.python.org/pypi/keyring>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
