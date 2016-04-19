@@ -14,6 +14,7 @@ dockerpty==0.4.1
 docopt==0.6.2
 docutils==0.12
 ebcli==4.0.14
+imageio==1.5
 itsdangerous==0.24
 jmespath==0.9.0
 keyring==9.0
@@ -22,6 +23,7 @@ numpy==1.11.0rc2
 pathspec==0.3.4
 python-dateutil==2.5.2
 requests==2.9.1
+scikit-video==0.1.2
 semantic-version==2.5.0
 six==1.10.0
 texttable==0.8.4
