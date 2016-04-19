@@ -1,14 +1,14 @@
 <html>
 	<head>
 		<style>
-			div.imgbox { width: 640px; height: 360px; background: url(/static/img.png) 0 0 no-repeat transparent; }
-			input { margin-top: 300px; }
+			div.imgbox { width: 1280px; height: 720px; background: url(/static/img.png) 0 0 no-repeat transparent; }
+			input { margin-top: 100px; }
 		</style>
 		<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 		<script>
 			$(document).ready(function() {
 				$('input').mousemove(function() {
-					$('div.imgbox').css('background-position', '-' + $(this).val() * 640 + 'px 0');
+					$('div.imgbox').css('background-position', '-' + $(this).val() * 1280 + 'px 0');
 				});
 			});
 		</script>
@@ -18,6 +18,9 @@
 		</div>
 		<div style="text-align: center;">
 			<input type="range" min="0" max="58"/>
+		</div>
+		<div>
+			elapsedTime: {{ context.elapsedTime }}
 		</div>
 	</body>
 </html>
