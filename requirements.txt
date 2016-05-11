@@ -1,9 +1,11 @@
 Flask==0.10.1
+Flask-RESTful==0.3.5
 Jinja2==2.8
 MarkupSafe==0.23
 Pillow==3.2.0
 PyYAML==3.11
 Werkzeug==0.11.5
+aniso8601==1.1.0
 awsebcli==3.7.5
 blessed==1.9.5
 boto==2.39.0
@@ -23,6 +25,7 @@ keyrings.alt==1.1.1
 numpy==1.11.0rc2
 pathspec==0.3.4
 python-dateutil==2.5.2
+pytz==2016.4
 requests==2.9.1
 semantic-version==2.5.0
 six==1.10.0
